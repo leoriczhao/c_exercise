@@ -1,0 +1,23 @@
+# IDE
+.idea/
+
+# Build outputs
+build/
+*/build/
+**/build/
+
+# Compiled objects
+*.o
+
+# macOS debug symbols
+*.dSYM/
+
+# Test artifacts / logs
+tests.log
+**/tests.log
+*.log
+
+# Executables generated during exercises
+ex32/tests/list_tests
+ex32/tests/list_algos_tests
+ex44_posix/tests/ringbufferposix_tests

@@ -20,7 +20,7 @@
 RingBuffer *RingBuffer_create(unsigned long order) {
     RingBuffer *buffer = calloc(1, sizeof(RingBuffer));
 
-    char path[] = "/dev/shm/ring-buffer-XXXXXX";
+    char path[] = "/tmp/ring-buffer-XXXXXX";
     int fd;
     int state;
     void *addr;
