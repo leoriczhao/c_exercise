@@ -24,6 +24,27 @@ A curated collection of C programming exercises covering various fundamental con
 | 17 | ex17.c | Advanced data structures |
 | 18 | ex18.c | Memory management |
 
+## Prerequisites
+
+- **C Compiler**: clang (recommended) or gcc
+- **Make**: For building all exercises at once
+- **Python 3**: Required for `test17.py` (if testing exercise 17)
+
+On macOS:
+```bash
+# clang is included with Xcode Command Line Tools
+xcode-select --install
+```
+
+On Linux:
+```bash
+# Ubuntu/Debian
+sudo apt install build-essential python3
+
+# Fedora/RHEL
+sudo dnf install gcc make python3
+```
+
 ## Quick Start
 
 ```bash
